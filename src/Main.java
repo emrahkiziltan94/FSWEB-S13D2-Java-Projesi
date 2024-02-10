@@ -27,6 +27,7 @@ public class Main {
         for (int i = digits.length - 1; i >= 0; i--) {
             reversed += digits[i];
         }
+        // commit test
         return reversed.equals(String.valueOf(number));
     }
 
